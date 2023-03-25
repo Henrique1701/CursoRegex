@@ -1,0 +1,31 @@
+/*
+(Metacaracteres representantes)
+Metacaracte | Nome            | Significado
+-----------------------------------------------------------------
+.           | Ponto           | Um caractere qualquer
+[]          | Conjunto        | Conjunto de caracteres permitidos
+[^]         | Conjunto Negado | Conjunto de caracteres proibidos
+
+(Metacaracteres quantificadores)
+Metacaracte | Nome            | Significado
+-----------------------------------------------------------------
+?           | Opcional        | Zero ou um
+*           | Asterico        | Zero ou mais
++           | Mais            | Um ou mais
+{n. m}      | Chaves          | De n até m
+
+(Metacaracteres âncoras)
+Metacaracte | Nome            | Significado
+-----------------------------------------------------------------
+^           | Circunflexo     | Inicio da linha
+$           | Cifrão          | Fim de linha
+\b          | Borda           | Inicio ou fim da palavra
+
+(Outros metacaracteres)
+Metacaracte | Nome            | Significado
+-----------------------------------------------------------------
+\           | Escape          | Uso de metacaracteres como literal
+|           | Ou              | Operação de Ou
+()          | Grupo           | Define um grupo
+\1...\9     | Retrovisor      | Resgata grupos já definidos
+*/
